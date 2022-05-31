@@ -1,0 +1,605 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Derived copy of The Massive Atmosphere of Venus</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m63563</md:content-id>
+  <md:title>Derived copy of The Massive Atmosphere of Venus</md:title>
+  <md:abstract/>
+  <md:uuid>4f300ee9-ca47-4eff-b75b-7c68db17f432</md:uuid>
+</metadata>
+
+<content>
+<code id="eip-232" display="block"><newline count="60"/></code><section id="eip-161"><title>Why do some planets have atmospheres and others do not? </title><para id="id133667">Our curiosity to know why Venus is surrounded by a heavy atmosphere
+while Mars goes virtually without leads us to wonder about the likelihood
+of atmospheres surrounding the newly discovered planets around other
+stars. It turns out that there is a simple heuristic for determining
+if a particular gas has leaked away from a planet over 4.5 Billion
+years: multiply the average velocity of a given type of molecule by
+a factor of 6, and if that is larger than the planet’s
+escape speed, then molecules of that type will have escaped from the
+planet's atmosphere in significant quantities in that time. Otherwise
+most of it will have been retained.</para>
+    <para id="id133681">The escape speed can be calculated for any planet of mass M and radius
+r by the relation</para>
+    <equation id="id133689">
+      <m:math overflow="scroll" mode="display">
+        <m:mrow>
+          <m:msub>
+            <m:mi>v</m:mi>
+            <m:mi>e</m:mi>
+          </m:msub>
+          <m:mrow>
+            <m:mo>(</m:mo>
+            <m:mi>r</m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+          <m:mo>=</m:mo>
+          <m:msqrt>
+            <m:mfrac>
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:mi>G</m:mi>
+                <m:mi>M</m:mi>
+              </m:mrow>
+              <m:mi>r</m:mi>
+            </m:mfrac>
+          </m:msqrt>
+          <m:mspace width="0.277778em"/>
+          <m:mo>,</m:mo>
+        </m:mrow>
+      </m:math>
+    </equation>
+    <para id="id134072">where G is Newton’s gravitational constant. We can
+save future tedium by finding the escape speed from the known speed
+for Earth, given at 11.2 km/s in Section 3.5, and the ratio of the
+planet’s mass and radius to that of the Earth,</para>
+    <equation id="id134081"><m:math overflow="scroll" mode="display">
+        <m:mrow>
+          <m:msub>
+            <m:mi>v</m:mi>
+            <m:mi>e</m:mi>
+          </m:msub>
+          <m:mrow>
+            <m:mo>(</m:mo>
+            <m:mi>r</m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+          <m:mo>=</m:mo>
+          <m:mn>11</m:mn>
+          <m:mo>.</m:mo>
+          <m:mn>2</m:mn>
+          <m:mspace width="0.166667em"/>
+          <m:mi> km/s</m:mi>
+          <m:msqrt>
+            <m:mrow>
+              <m:mfrac>
+                <m:mi>M</m:mi>
+                <m:msub>
+                  <m:mi>M</m:mi>
+                  <m:mi>E</m:mi>
+                </m:msub>
+              </m:mfrac>
+              <m:mfrac>
+                <m:msub>
+                  <m:mi>r</m:mi>
+                  <m:mi>E</m:mi>
+                </m:msub>
+                <m:mi>r</m:mi>
+              </m:mfrac>
+            </m:mrow>
+          </m:msqrt>
+          <m:mspace width="0.277778em"/>
+          <m:mo>.</m:mo>
+        </m:mrow>
+      </m:math>
+    </equation><para id="id134152">For instance, for Mercury,</para>
+    <equation id="id134157"><m:math overflow="scroll" mode="display">
+        <m:mrow>
+          <m:msub>
+            <m:mi>v</m:mi>
+            <m:mi>e</m:mi>
+          </m:msub>
+          <m:mrow>
+            <m:mo>(</m:mo>
+            <m:mi>r</m:mi>
+            <m:mo>)</m:mo>
+          </m:mrow>
+          <m:mo>=</m:mo>
+          <m:mn>11</m:mn>
+          <m:mo>.</m:mo>
+          <m:mn>2</m:mn>
+          <m:mspace width="0.166667em"/>
+          <m:mi> km/s</m:mi>
+          <m:msqrt>
+            <m:mrow>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                  <m:mo>.</m:mo>
+                  <m:mn>055</m:mn>
+                  <m:msub>
+                    <m:mi>M</m:mi>
+                    <m:mi>E</m:mi>
+                  </m:msub>
+                </m:mrow>
+                <m:msub>
+                  <m:mi>M</m:mi>
+                  <m:mi>E</m:mi>
+                </m:msub>
+              </m:mfrac>
+              <m:mfrac>
+                <m:msub>
+                  <m:mi>r</m:mi>
+                  <m:mi>E</m:mi>
+                </m:msub>
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                  <m:mo>.</m:mo>
+                  <m:mn>38</m:mn>
+                  <m:msub>
+                    <m:mi>r</m:mi>
+                    <m:mi>E</m:mi>
+                  </m:msub>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:msqrt>
+          <m:mo>=</m:mo>
+          <m:mn>11</m:mn>
+          <m:mo>.</m:mo>
+          <m:mn>2</m:mn>
+          <m:mspace width="0.166667em"/>
+          <m:mi> km/s</m:mi>
+          <m:msqrt>
+            <m:mrow>
+              <m:mn>0</m:mn>
+              <m:mo>.</m:mo>
+              <m:mn>14</m:mn>
+            </m:mrow>
+          </m:msqrt>
+          <m:mo>=</m:mo>
+          <m:mn>11</m:mn>
+          <m:mo>.</m:mo>
+          <m:mn>2</m:mn>
+          <m:mspace width="0.166667em"/>
+          <m:mi> km/s</m:mi>
+          <m:mo>×</m:mo>
+          <m:mn>0</m:mn>
+          <m:mo>.</m:mo>
+          <m:mn>38</m:mn>
+          <m:mo>=</m:mo>
+          <m:mn>4</m:mn>
+          <m:mo>.</m:mo>
+          <m:mn>26</m:mn>
+          <m:mspace width="0.166667em"/>
+          <m:mi> km/s</m:mi>
+          <m:mspace width="0.277778em"/>
+        </m:mrow>
+      </m:math>
+    </equation><para id="id134332">So is this more than six times the average velocity of hydrogen molecules
+<m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:math> or not?</para>
+    <para id="id133618">For the answer, we turn to Ludwig Boltzmann (1844-1906) who said that
+the average kinetic energy of a molecule can be expressed in terms
+of the temperature. Put more fundamentally, temperature is simply
+an expression of how fast molecules move. The temperature at which
+they do not move at all is defined as zero on the Kelvin scale (0
+K = - 273° C = - 459° F). Boltzmann defined
+a constant <emphasis> k </emphasis> such that the following definition of temperature <emphasis> T </emphasis> holds for the molecule's mass <emphasis> m </emphasis> and velocity <emphasis> v </emphasis>:
+The average kinetic energy is</para><equation id="id133630">
+      <m:math overflow="scroll" mode="display">
+        <m:mrow>
+          <m:mfrac>
+            <m:mn>1</m:mn>
+            <m:mn>2</m:mn>
+          </m:mfrac>
+          <m:mi>m</m:mi>
+          <m:msubsup>
+            <m:mi>v</m:mi>
+            <m:mrow>
+              <m:mi>a</m:mi>
+              <m:mi>v</m:mi>
+              <m:mi>e</m:mi>
+              <m:mi>r</m:mi>
+              <m:mi>a</m:mi>
+              <m:mi>g</m:mi>
+              <m:mi>e</m:mi>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msubsup>
+          <m:mo>=</m:mo>
+          <m:mfrac>
+            <m:mn>3</m:mn>
+            <m:mn>2</m:mn>
+          </m:mfrac>
+          <m:mi>k</m:mi>
+          <m:mi>T</m:mi>
+          <m:mspace width="0.277778em"/>
+          <m:mo>.</m:mo>
+        </m:mrow>
+      </m:math>
+    </equation>
+    <para id="id134602">But what average temperature should we use for hydrogen in the Earth's
+atmosphere? Figure 8.12. shows that the temperature at the surface
+of the Earth is about 300 K, so the average velocity for the hydrogen
+molecule <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:math> is</para><equation id="id134619"><m:math overflow="scroll" mode="display">
+        <m:mtable displaystyle="true">
+          <m:mtr>
+            <m:mtd columnalign="right">
+              <m:msub>
+                <m:mi>v</m:mi>
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                  <m:mi>v</m:mi>
+                  <m:mi>e</m:mi>
+                  <m:mi>r</m:mi>
+                  <m:mi>a</m:mi>
+                  <m:mi>g</m:mi>
+                  <m:mi>e</m:mi>
+                </m:mrow>
+              </m:msub>
+            </m:mtd>
+            <m:mtd>
+              <m:mo>=</m:mo>
+            </m:mtd>
+            <m:mtd columnalign="left">
+              <m:mrow>
+                <m:msqrt>
+                  <m:mn>3</m:mn>
+                </m:msqrt>
+                <m:msqrt>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>k</m:mi>
+                      <m:mi>T</m:mi>
+                    </m:mrow>
+                    <m:msub>
+                      <m:mi>m</m:mi>
+                      <m:msub>
+                        <m:mi>H</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                    </m:msub>
+                  </m:mfrac>
+                </m:msqrt>
+                <m:mo>=</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>.</m:mo>
+                <m:mn>73</m:mn>
+                <m:mo>×</m:mo>
+                <m:msqrt>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo>.</m:mo>
+                        <m:mn>38</m:mn>
+                        <m:mo>×</m:mo>
+                        <m:msup>
+                          <m:mn>10</m:mn>
+                          <m:mrow>
+                            <m:mo>-</m:mo>
+                            <m:mn>23</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                        <m:mspace width="4pt"/>
+                        <m:mi mathvariant="normal">J/K</m:mi>
+                        <m:mo>×</m:mo>
+                        <m:mn>300</m:mn>
+                        <m:mspace width="4pt"/>
+                        <m:mi mathvariant="normal">K</m:mi>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>3</m:mn>
+                        <m:mo>.</m:mo>
+                        <m:mn>35</m:mn>
+                        <m:mo>×</m:mo>
+                        <m:msup>
+                          <m:mn>10</m:mn>
+                          <m:mrow>
+                            <m:mo>-</m:mo>
+                            <m:mn>27</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                        <m:mi> kg </m:mi>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>×</m:mo>
+                    <m:mfrac>
+                      <m:mi> Nm </m:mi>
+                      <m:mi mathvariant="normal">J</m:mi>
+                    </m:mfrac>
+                    <m:mo>×</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mi> kg </m:mi>
+                        <m:mspace width="4pt"/>
+                        <m:mi mathvariant="normal">m/</m:mi>
+                        <m:msup>
+                          <m:mi mathvariant="normal">s</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mi mathvariant="normal">N</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:msqrt>
+              </m:mrow>
+            </m:mtd>
+          </m:mtr>
+          <m:mtr>
+            <m:mtd/>
+            <m:mtd>
+              <m:mo>=</m:mo>
+            </m:mtd>
+            <m:mtd columnalign="left">
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>.</m:mo>
+                <m:mn>73</m:mn>
+                <m:mo>×</m:mo>
+                <m:msqrt>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mo>.</m:mo>
+                    <m:mn>24</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mn>10</m:mn>
+                      <m:mn>6</m:mn>
+                    </m:msup>
+                    <m:mspace width="4pt"/>
+                    <m:msup>
+                      <m:mi mathvariant="normal">m</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:msup>
+                      <m:mi mathvariant="normal">s</m:mi>
+                      <m:mn>-2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:msqrt>
+                <m:mo>=</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>.</m:mo>
+                <m:mn>73</m:mn>
+                <m:mo>×</m:mo>
+                <m:mspace width="4pt"/>
+                <m:mn>1</m:mn>
+                <m:mo>.</m:mo>
+                <m:mn>11</m:mn>
+                <m:mspace width="4pt"/>
+                <m:mi> km/s</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>.</m:mo>
+                <m:mn>92</m:mn>
+                <m:mspace width="4pt"/>
+                <m:mi> km/s</m:mi>
+                <m:mspace width="0.222222em"/>
+                <m:mo>.</m:mo>
+              </m:mrow>
+            </m:mtd>
+          </m:mtr>
+        </m:mtable>
+      </m:math>
+    </equation><para id="id134911">A distribution of velocities would range from 10% of this value to
+10 times this value. That is, some small fraction of hydrogen molecules
+of would be moving at 20 km/s, more than the Earth's escape velocity,
+and given a few billion years, this small fraction can add up to significant
+loss.</para>
+    <para id="id134919">Our heuristic says to multiply the average velocity of hydrogen molecules
+<m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:math>, 2 km/s, by a factor of 6, and this 12 km/s
+is indeed larger than the Earth’s escape speed of
+11.2 km/s so we would expect that very little <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:math>
+remains in Earth’s atmosphere, as is the case. For
+any other gas, we can avoid the above complexity by using a ratio of its weight to that of molecular
+hydrogen, which – having two hydrogen atoms – has an molecular mass
+of 2 atomic units. One atom of normal oxygen has 8 protons and 8 neutrons
+(written in shorthand as <m:math overflow="scroll"><m:mrow><m:msup><m:mspace width="0.166667em"/><m:mn>8</m:mn></m:msup><m:msup><m:mi>O</m:mi><m:mn>16</m:mn></m:msup></m:mrow></m:math> ). Each of these 16 nucleons
+has about the same mass as the single-proton nucleus of one hydrogen
+atom (and the eight electrons have negligible mass). Then the O<m:math overflow="scroll"><m:msub><m:mrow/><m:mtext>2</m:mtext></m:msub></m:math>
+molecule is a pair of <m:math overflow="scroll"><m:mrow><m:msup><m:mspace width="0.166667em"/><m:mn>8</m:mn></m:msup><m:msup><m:mi>O</m:mi><m:mn>16</m:mn></m:msup></m:mrow></m:math> atoms with 16 times the mass
+of a pair of hydrogen atoms, <m:math overflow="scroll"><m:msub><m:mi>H</m:mi><m:mn>2</m:mn></m:msub></m:math>.</para><para id="id135029">Thus, the average molecular velocity for <m:math overflow="scroll"><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:math> is</para>
+    <equation id="id135046"><m:math overflow="scroll" mode="display">
+        <m:mrow>
+          <m:msub>
+            <m:mi>v</m:mi>
+            <m:mrow>
+              <m:mi>a</m:mi>
+              <m:mi>v</m:mi>
+              <m:mi>e</m:mi>
+              <m:mi>r</m:mi>
+              <m:mi>a</m:mi>
+              <m:mi>g</m:mi>
+              <m:mi>e</m:mi>
+            </m:mrow>
+          </m:msub>
+          <m:mo>=</m:mo>
+          <m:mn>2</m:mn>
+          <m:mspace width="0.166667em"/>
+          <m:mi> km/s</m:mi>
+          <m:msqrt>
+            <m:mrow>
+              <m:mfrac>
+                <m:mi>T</m:mi>
+                <m:mrow>
+                  <m:mn>300</m:mn>
+                  <m:mi>K</m:mi>
+                </m:mrow>
+              </m:mfrac>
+              <m:mfrac>
+                <m:msub>
+                  <m:mi>m</m:mi>
+                  <m:msub>
+                    <m:mi>H</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msub>
+                </m:msub>
+                <m:mi>m</m:mi>
+              </m:mfrac>
+            </m:mrow>
+          </m:msqrt>
+          <m:mo>=</m:mo>
+          <m:mn>2</m:mn>
+          <m:mspace width="0.166667em"/>
+          <m:mi> km/s</m:mi>
+          <m:msqrt>
+            <m:mrow>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>300</m:mn>
+                  <m:mi>K</m:mi>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>300</m:mn>
+                  <m:mi>K</m:mi>
+                </m:mrow>
+              </m:mfrac>
+              <m:mfrac>
+                <m:msub>
+                  <m:mi>m</m:mi>
+                  <m:msub>
+                    <m:mi>H</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msub>
+                </m:msub>
+                <m:mrow>
+                  <m:mn>16</m:mn>
+                  <m:mspace width="0.166667em"/>
+                  <m:msub>
+                    <m:mi>m</m:mi>
+                    <m:msub>
+                      <m:mi>H</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msub>
+                  </m:msub>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:msqrt>
+          <m:mo>=</m:mo>
+          <m:mn>2</m:mn>
+          <m:mspace width="0.166667em"/>
+          <m:mi> km/s</m:mi>
+          <m:mfrac>
+            <m:mn>1</m:mn>
+            <m:mn>4</m:mn>
+          </m:mfrac>
+          <m:mo>=</m:mo>
+          <m:mn>0</m:mn>
+          <m:mo>.</m:mo>
+          <m:mn>5</m:mn>
+          <m:mspace width="0.166667em"/>
+          <m:mi> km/s</m:mi>
+          <m:mspace width="0.277778em"/>
+          <m:mo>.</m:mo>
+        </m:mrow>
+      </m:math>
+    </equation><para id="id135233">We multiply this 0.5 km/s average molecular velocity for <m:math overflow="scroll"><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:math>
+by 6 under our heuistic and we see that the resulting 3 km/s is less
+than the escape velocity, so the Earth should have retained <m:math overflow="scroll"><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:math>
+in the time since the Solar System formed. Did it?</para><para id="id135267">For any other planet we can use the ratio of its surface temperature
+to that of Earth. On Mercury the surface temperature varies greatly
+from daytime 700 K to 100 K at night. But since Mercury’s
+day is 58.6 Earth days long, the long hot daytime temperature will
+be the one in play rather than an average of 300 K.</para>
+    <para id="id135275">Thus, for <m:math overflow="scroll"><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:math> molecules,</para>
+    <equation id="id135292"><m:math overflow="scroll" mode="display">
+        <m:mrow>
+          <m:msub>
+            <m:mi>v</m:mi>
+            <m:mrow>
+              <m:mi>a</m:mi>
+              <m:mi>v</m:mi>
+              <m:mi>e</m:mi>
+              <m:mi>r</m:mi>
+              <m:mi>a</m:mi>
+              <m:mi>g</m:mi>
+              <m:mi>e</m:mi>
+            </m:mrow>
+          </m:msub>
+          <m:mo>=</m:mo>
+          <m:mn>2</m:mn>
+          <m:mspace width="0.166667em"/>
+          <m:mi> km/s</m:mi>
+          <m:msqrt>
+            <m:mrow>
+              <m:mfrac>
+                <m:mi>T</m:mi>
+                <m:mrow>
+                  <m:mn>300</m:mn>
+                  <m:mi>K</m:mi>
+                </m:mrow>
+              </m:mfrac>
+              <m:mfrac>
+                <m:msub>
+                  <m:mi>m</m:mi>
+                  <m:msub>
+                    <m:mi>H</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msub>
+                </m:msub>
+                <m:mi>m</m:mi>
+              </m:mfrac>
+            </m:mrow>
+          </m:msqrt>
+          <m:mo>=</m:mo>
+          <m:mn>2</m:mn>
+          <m:mspace width="0.166667em"/>
+          <m:mi> km/s</m:mi>
+          <m:msqrt>
+            <m:mrow>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>700</m:mn>
+                  <m:mi>K</m:mi>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>300</m:mn>
+                  <m:mi>K</m:mi>
+                </m:mrow>
+              </m:mfrac>
+              <m:mfrac>
+                <m:msub>
+                  <m:mi>m</m:mi>
+                  <m:msub>
+                    <m:mi>H</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msub>
+                </m:msub>
+                <m:mrow>
+                  <m:mn>16</m:mn>
+                  <m:mspace width="0.166667em"/>
+                  <m:msub>
+                    <m:mi>m</m:mi>
+                    <m:msub>
+                      <m:mi>H</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msub>
+                  </m:msub>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:msqrt>
+          <m:mo>=</m:mo>
+          <m:mn>2</m:mn>
+          <m:mspace width="0.166667em"/>
+          <m:mi> km/s</m:mi>
+          <m:mo>×</m:mo>
+          <m:mn>0</m:mn>
+          <m:mo>.</m:mo>
+          <m:mn>38</m:mn>
+          <m:mo>=</m:mo>
+          <m:mn>0</m:mn>
+          <m:mo>.</m:mo>
+          <m:mn>76</m:mn>
+          <m:mspace width="0.166667em"/>
+          <m:mi> km/s</m:mi>
+        </m:mrow>
+      </m:math>
+    </equation><para id="id135475">We multiply this 0.76 km/s average molecular velocity for <m:math overflow="scroll"><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:math>
+on Mercury by 6 under our heuistic and we see that the resulting 4.6
+km/s is more than Mercury's escape velocity of 4.3 km/s, so the Mercury
+should have lost its <m:math overflow="scroll"><m:msub><m:mi>O</m:mi><m:mn>2</m:mn></m:msub></m:math> in the time since the Solar System formed
+(and, of course the lighter hydrogen).</para></section></content>
+</document>
