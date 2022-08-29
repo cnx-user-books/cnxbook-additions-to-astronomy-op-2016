@@ -1,49 +1,18 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" authors="Jack Straton">
   <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
-  <md:content-id>col12115</md:content-id>
-  <md:title>- Derived copy of Additions to Astronomy-OP 2016 -</md:title>
-  
-  
-  <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
-  <md:language>en</md:language>
-
-  
-
-  
-  
-  
-  
-  
-
-  <md:uuid>44699eb0-9254-49d6-b13c-9e28eb834f49</md:uuid>
-<md:slug>derived-copy-of-additions-to-astronomy-op-2016</md:slug>
-</metadata>
-
+    <md:content-id>col12115</md:content-id>
+    <md:title>- Derived copy of Additions to Astronomy-OP 2016 -</md:title>
+    <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License 4.0</md:license>
+    <md:language>en</md:language>
+    <md:uuid>44699eb0-9254-49d6-b13c-9e28eb834f49</md:uuid>
+    <md:slug>derived-copy-of-additions-to-astronomy-op-2016</md:slug>
+  </metadata>
   <col:content>
-    
-      <col:module document="m63566"/>
-        
-      
-    
-    
-      <col:module document="m63571"/>
-        
-      
-    
-    
-      <col:module document="m63555"/>
-        
-      
-    
-    
-      <col:module document="m63563"/>
-        
-      
-    
-    
-      <col:module document="m63562"/>
-        
-      
-    
+    <col:module document="m63566"/>
+    <col:module document="m63571"/>
+    <col:module document="m63555"/>
+    <col:module document="m63563"/>
+    <col:module document="m63562"/>
   </col:content>
 </col:collection>
